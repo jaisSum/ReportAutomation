@@ -2,7 +2,7 @@
 {   
     "common" : {
         "title":"The TAP Report",
-        "org_logo":"/aura-logo.png",
+        "org_logo":"/tap-logo.svg",
         "org_name":"/gohnson-pink-logo.png",
         "org_detail": [
             {
