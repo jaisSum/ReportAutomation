@@ -1,0 +1,24 @@
+.peerDetailsCont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 8px 0;
+    .peerDetailsLt {
+        width: 25%;
+        margin: 0 50px 0 0;
+
+        h3 {
+            height: 35px;
+        }
+    }
+    .peerDetailsRt {
+        width: calc(100% - 30%);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px; /* Adds spacing between cards */
+        .peerDetailsblk {
+            width: 100%;
+            
+        }
+    }
+}
