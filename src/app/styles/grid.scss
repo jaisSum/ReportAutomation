@@ -1,0 +1,65 @@
+/** 1.1 Media Query Ranges 
+        Proper nomenclature bases screen size and type like tablet-portrait-min */
+
+$mobile-device-max                      : 767px;
+$tablet-portrait-min                    : 768px;
+$tablet-portrait-max                    : 1023px;
+$tablet-landscape-min                   : 1024px;
+$tablet-landscape-max                   : 1279px;
+$desktop-screen-min                     : 1280px;
+$desktop-screen-max                     : 1600px;
+$hd-screen-min                          : 1601px;
+
+$mediaquery-mobile-only: 'only screen and (max-width : #{$mobile-device-max})';
+$mediaquery-tablet-portrait-up: 'only screen and (min-width : #{$tablet-portrait-min})';
+$mediaquery-tablet-portrait-down: 'only screen and (max-width : #{$tablet-portrait-max})';
+$mediaquery-tablet-portrait-only: 'only screen and (min-width : #{$tablet-portrait-min}) and (max-width : #{$tablet-portrait-max})';
+$mediaquery-tablet-landscape-up: 'only screen and (min-width : #{$tablet-landscape-min})';
+$mediaquery-tablet-landscape-down: 'only screen and (max-width : #{$tablet-landscape-max})';
+$mediaquery-tablet-landscape-only: 'only screen and (min-width : #{$tablet-landscape-min}) and (max-width : #{$tablet-landscape-max})';
+$mediaquery-desktop-and-up: 'only screen and (min-width : #{$desktop-screen-min})';
+$mediaquery-desktop-and-down: 'only screen and (max-width : #{$desktop-screen-max})';
+$mediaquery-hd-and-up: 'only screen and (min-width : #{$hd-screen-min})';
+
+$gutter-width: 12px;
+
+.container, .container-fluid {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container-fluid {
+    padding-left: calc($gutter-width/2);
+    padding-right: calc($gutter-width/2);
+}
+
+/** container width may change basis of style guide of grid - Frontend Site */
+@media #{$mediaquery-mobile-only} {
+    .container {
+        padding-left: calc($gutter-width/1.5);
+        padding-right: calc($gutter-width/1.5);
+    }
+}
+@media #{$mediaquery-tablet-portrait-up} {
+    .container {
+        width: 94%;
+        min-width: 728px;
+    }
+}
+@media #{$mediaquery-tablet-landscape-up} {
+    .container {
+        width: 90%;
+        min-width: 944px;
+    }
+}
+@media #{$mediaquery-desktop-and-up} {
+    .container {
+        width: 88%;
+        min-width: 1200px;
+    }
+}
+@media #{$mediaquery-hd-and-up} {
+    .container {
+        min-width: 1440px;
+    }
+}

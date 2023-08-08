@@ -1,0 +1,46 @@
+@import './styles/font.scss';
+@import './styles/variable.scss';
+@import './styles/normalize.scss';
+@import './styles/grid.scss';
+
+/** START- Add global styles to this file, and also import other style files */
+
+html {
+    font-family: $primary-font-family;
+    font-size: $base-fontsize + px;
+    letter-spacing: $letterspacing;
+}
+body {
+    color: $color-primary;
+
+    & * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+input label {
+    font-family: $primary-font-family;
+}
+input::placeholder {
+    font-family: $primary-font-family;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+.colorHeading { color: $color-highlight;}
+.colorOutlineBot { border-bottom: 1px solid $color-outline;}
+.colorSecondary {color: $color-secondary;}

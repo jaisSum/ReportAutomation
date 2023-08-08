@@ -1,0 +1,181 @@
+/** START- Font used in Site will come here, font-family can be searched in https://fonts.google.com/, 
+    select the style and paste here */
+  
+/** font variable declaration - font-weight, font-size, line-height and letter-spacing
+    $base-fontsize - The base font size is set off of the body tag in CSS, to use rem we need to set a base font size. */
+
+    $base-fontsize          : 16;
+    $primary-font-family    : 'Manrope', sans-serif;
+    
+    $fontweight-thin        : 200;
+    $fontweight-light       : 300;
+    $fontweight-normal      : 400;
+    $fontweight-medium      : 500;
+    $fontweight-semi-bold   : 600;
+    $fontweight-bold        : 700;
+    $fontweight-extra-bold  : 800;
+         
+    $letterspacing          : 0;
+        
+/** font variable ends */
+
+  /* latin-ext */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: $fontweight-thin;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/manrope/v11/xn7gYHE41ni1AdIRggmxSuXd.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: $fontweight-thin;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/manrope/v11/xn7gYHE41ni1AdIRggexSg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: $fontweight-light;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/manrope/v11/xn7gYHE41ni1AdIRggmxSuXd.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: $fontweight-light;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/manrope/v11/xn7gYHE41ni1AdIRggexSg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: $fontweight-normal;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/manrope/v11/xn7gYHE41ni1AdIRggmxSuXd.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: $fontweight-normal;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/manrope/v11/xn7gYHE41ni1AdIRggexSg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: $fontweight-medium;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/manrope/v11/xn7gYHE41ni1AdIRggmxSuXd.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: $fontweight-medium;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/manrope/v11/xn7gYHE41ni1AdIRggexSg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /* latin-ext */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: $fontweight-semi-bold;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/manrope/v11/xn7gYHE41ni1AdIRggmxSuXd.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: $fontweight-semi-bold;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/manrope/v11/xn7gYHE41ni1AdIRggexSg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: $fontweight-bold;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/manrope/v11/xn7gYHE41ni1AdIRggmxSuXd.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: $fontweight-bold;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/manrope/v11/xn7gYHE41ni1AdIRggexSg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: $fontweight-extra-bold;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/manrope/v11/xn7gYHE41ni1AdIRggmxSuXd.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: $fontweight-extra-bold;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/manrope/v11/xn7gYHE41ni1AdIRggexSg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+/* latin-ext */
+
+.font-thin {
+    font-weight: $fontweight-thin;
+}
+
+.font-light {
+    font-weight: $fontweight-light;
+}
+
+.font-normal {
+    font-weight: $fontweight-normal;
+}
+
+.font-medium {
+    font-weight: $fontweight-medium;
+}
+
+.font-semibold {
+    font-weight: $fontweight-semi-bold;
+}
+
+.font-bold {
+    font-weight: $fontweight-bold;
+}
+
+.font-extrabold {
+    font-weight: $fontweight-extra-bold;
+}
+
+
+/** END Font used in Site will come here, font-family can be searched in https://fonts.google.com/, 
+    select the style and paste here */
