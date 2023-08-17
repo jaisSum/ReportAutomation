@@ -148,32 +148,40 @@
   }
 /* latin-ext */
 
-.font-thin {
+.fontThin {
     font-weight: $fontweight-thin;
 }
 
-.font-light {
+.fontLight {
     font-weight: $fontweight-light;
 }
 
-.font-normal {
+.fontNormal {
     font-weight: $fontweight-normal;
 }
 
-.font-medium {
+.fontMedium {
     font-weight: $fontweight-medium;
 }
 
-.font-semibold {
+.fontSemiBold {
     font-weight: $fontweight-semi-bold;
 }
 
-.font-bold {
+.fontBold {
     font-weight: $fontweight-bold;
 }
 
-.font-extrabold {
+.fontExtraBold {
     font-weight: $fontweight-extra-bold;
+}
+
+.font12 {
+  font-size: 0.75rem;
+}
+
+.font14 {
+  font-size: 0.875rem;
 }
 
 
