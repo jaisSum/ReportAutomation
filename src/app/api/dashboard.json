@@ -30,6 +30,7 @@
         "org_recommend":["<strong>Deep dive into Engineering and Product roles</strong> to understand key driver for having underweight of around 30% than it s nearest peer", "<strong>The attrition in last 3 years is at 13%</strong>, causing the company to loose over 1000 employees to direct competitors specially Medtronics. New retention strategies could significantly help, particularly in operations, sales and engineering departments.", "Demographic profile is unbalanced, showing an over representation of <strong>white employees at 65%, while women make up less than 40% in technical functions</strong>. An active approach need to be taken to enhance diversity across roles including leadership."]
     },
     "org_peers": {
+        "peers_title":["# of employees", "Employees coverage" ,"Revenue (2022, B$)"],
         "peers_detail":[
             {
                 "logo":"/abott-logo.png",

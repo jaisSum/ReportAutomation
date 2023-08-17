@@ -2,8 +2,12 @@
     .overviewTtl {
         font-size: 1.2rem;
         margin-bottom: 4px;
-        border-bottom: 1px solid #DD55A8;
+        border-bottom: 1px solid var(--color-secondary);
         padding: 4px 0;
+    }
+    .overviewSubttl {
+        margin: 4px 8px;
+        font-weight: bold;
     }
     .compDetailCont {
         display: flex;
@@ -12,17 +16,21 @@
         padding: 8px 0;
         .compDetailLt {
             width: 25%;
-            border-right: 2px solid #DD55A8;
+            border-right: 2px solid var(--color-secondary);
             margin: 0 50px 0 0;
         }
         .compDetailRt {
             width: calc(100% - 30%);
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 8px; /* Adds spacing between cards */
+            gap: 8px; 
+            
             .compDetailblk {
                 width: 100%;
-                
+                margin-bottom: 4px;
+                & span {
+                    font-size: 0.875rem;
+                }
             }
         }
     }

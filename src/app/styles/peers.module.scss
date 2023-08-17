@@ -8,17 +8,31 @@
         margin: 0 50px 0 0;
 
         h3 {
-            height: 35px;
+            line-height: 35px;
+            font-size: 1rem;
+            font-weight: bold;
+            border-bottom: 1px solid var(--color-highlight);
+        }
+        p {
+            height: 18px;
+            margin: 8px 0;
         }
     }
     .peerDetailsRt {
         width: calc(100% - 30%);
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 8px; /* Adds spacing between cards */
+        gap: 0; 
+        
+        .peerDetailsblkHd {
+            border-bottom: 1px solid var(--color-outline);
+        }        
         .peerDetailsblk {
             width: 100%;
-            
+            p {
+                height: 18px;
+                margin: 8px 10px;
+            }
         }
     }
 }

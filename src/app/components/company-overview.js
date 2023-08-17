@@ -12,14 +12,14 @@ const CompanyOverview = ({products}) => {
             <div className={styles.compDetailCont}>
                 <div className={styles.compDetailLt}>
                     <Image src="/gohnson-pink-logo.png" alt="" width={180} height={50}></Image>
-                    <p>Official Website</p>
+                    <p className={`${styles.overviewSubttl} colorTertiary`}>Official Website</p>
                 </div>
                 <div className={styles.compDetailRt}>
                     {
                         products.map((product)=> (
                             <div className={styles.compDetailblk}>
                                 <h2 className="colorSecondary">{product.detail_hd}</h2>
-                                <p>{product.detail_desc}</p>
+                                <span className="colorTertiary">{product.detail_desc}</span>
                             </div> 
                         ))
                     }

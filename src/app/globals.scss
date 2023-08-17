@@ -11,7 +11,7 @@ html {
     letter-spacing: $letterspacing;
 }
 body {
-    color: $color-primary;
+    color: var(--color-primary);
 
     & * {
         -webkit-box-sizing: border-box;
@@ -41,6 +41,7 @@ h5,
 h6 {
     margin: 0;
 }
-.colorHeading { color: $color-highlight;}
-.colorOutlineBot { border-bottom: 1px solid $color-outline;}
-.colorSecondary {color: $color-secondary;}
+.colorHeading { color: var(--color-highlight);}
+.colorOutlineBot { border-bottom: 1px solid var(--color-outline);}
+.colorSecondary {color: var(--color-secondary);}
+.colorTertiary { color: var(--color-tertiary);}
